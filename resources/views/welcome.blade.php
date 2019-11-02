@@ -8,6 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="../css/cookiealert.css">
       <link href="../css/css" rel="stylesheet">
       <title>Puslapio pavadinimas</title>
   </head>
@@ -68,23 +69,33 @@
       </main>
 
       <footer>
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
+        <div class="container-fluid">
+          <div class="footer row align-items-center justify-content-center">
             <div class="col-md-3 col-sm-6 col-xs-12">
-              <p> &copy; 2018 Kęstutis Morkevičius </p>
+              <p>&copy; 2018 Kęstutis Morkevičius</p>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12">
-              <p> Lietuva Kaunas Pakalnės 42 </p>
+              <P>Lietuva Kaunas Pakalnės 42</P>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12">
-              <p><i class="material-icons"> call </i> +370654212 </p>
+              <p><i class="material-icons">call</i>+370654212</p>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12">
-              <p> <i class="material-icons"> email </i> djkestutis@yahoo.com </p>
+              <p><i class="material-icons">email</i>djkestutis@yahoo.com</p>
             </div>
           </div>
         </div>
       </footer>
+
+      <!-- START Bootstrap-Cookie-Alert -->
+      <div class="alert text-center cookiealert" role="alert">
+          <b>Ar tau patinka slapukai?</b> &#x1F36A; Mes naudojame slapukus tam, kad užtikrintumėte geriausią patirtį mūsų svetainėje. <a href="https://cookiesandyou.com/" target="_blank">Sužinoti daugiau</a>
+
+          <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+              Aš sutinku
+          </button>
+      </div>
+      <!-- END Bootstrap-Cookie-Alert -->
 
   </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -93,4 +104,5 @@
           integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
           integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../js/cookiealert.js"></script>
 </html>

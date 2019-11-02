@@ -7,18 +7,16 @@ html, body {
     margin: 0;
 }
 
-footer {
+.footer {
     background-color: #554c57;
     text-align:center;
+    color: white;
+    min-height: 10vh;
+    padding-top: 3vh;
 }
 
 header{
   background-color: #f8f9fa;
-}
-
-footer p {
-    color: white;
-
 }
 
 .apacia {
@@ -111,13 +109,15 @@ img {
   color: #636b6f;
   font-family: 'Nunito', sans-serif;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
   color: rgba(#09061c, 0.91);
   text-shadow: 3px 2px #969ea2;
 }
 
 a:hover {
-  text-shadow: 3px 2px #969ea2;
+  color: #cfe4d3;
+  text-shadow: 3px 2px #040f07;
 }
 
 @media only screen and (max-width: 768px) {
@@ -144,5 +144,10 @@ a:hover {
 @media only screen and (max-width: 535px) {
   header .diplay-logo {
           display: none;
+    }
+}
+@media only screen and (max-width: 580px) {
+  footer .footer {
+          min-height: 40vh;
     }
 }
