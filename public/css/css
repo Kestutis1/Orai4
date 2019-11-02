@@ -114,8 +114,12 @@ img {
 .navbar-light .navbar-nav .nav-link:hover {
   color: rgba(#09061c, 0.91);
   text-shadow: 3px 2px #969ea2;
-
 }
+
+a:hover {
+  text-shadow: 3px 2px #969ea2;
+}
+
 @media only screen and (max-width: 768px) {
   footer {
           font-size: 12px;
@@ -130,5 +134,15 @@ img {
   header .top-right {
           margin-top: -35px;
           margin-left: 35px;
+    }
+}
+@media only screen and (min-width: 535px) {
+  header .mobile-logo {
+          display: none;
+    }
+}
+@media only screen and (max-width: 535px) {
+  header .diplay-logo {
+          display: none;
     }
 }

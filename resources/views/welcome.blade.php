@@ -16,13 +16,13 @@
       <header>
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col col-md-7 col-xs-12">
+            <div class="col col-md-8 col-xs-4">
               <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                  <!-- <img class="logo" src="images/st.png" alt="Trulli"> </a> <br /> -->
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
+                      <img class="diplay-logo logo" src="images/st.png" alt="Logotipas">
                     <ul class="navbar-nav">
                       <li class="nav-item">
                         <a class="nav-link" href="http://127.0.0.1:8000/create">Sukurti</a>
@@ -40,21 +40,17 @@
                   </div>
               </nav>
             </div>
-            <div class="col col-md-5 col-xs-12">
+            <div class="col col-md-4 col-xs-8 links">
               @if (Route::has('login'))
-
-                  <div class="top-right links">
                       @auth
                           <a href="{{ url('/home') }}">Atsijungti</a>
                       @else
-                          <a href="{{ route('login') }}">Login</a>
+                          <a href="{{ route('login') }}">Prisijungti</a>
 
                           @if (Route::has('register'))
-                              <a href="{{ route('register') }}">Register</a>
+                              <a href="{{ route('register') }}">Registruotis</a>
                           @endif
                       @endauth
-
-                  </div>
               @endif
             </div>
           </div>
