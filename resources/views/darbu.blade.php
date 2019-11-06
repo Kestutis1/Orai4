@@ -93,7 +93,13 @@
 
       <!-- START Bootstrap-Cookie-Alert -->
       <div class="alert text-center cookiealert" role="alert">
-          <b>Ar tau patinka slapukai?</b> &#x1F36A; Mes naudojame slapukus tam, kad užtikrintumėte geriausią patirtį mūsų svetainėje. <a href="https://cookiesandyou.com/" target="_blank">Sužinoti daugiau</a>
+          <b>Informuojame !</b> &#x1F36A; Siekdami užtikrinti geriausią patirtį lankantis www.zalgirioarena.lt svetainėje naudojame šiuos slapukus
+          (angl. cookies): Privalomi – skirti palaikyti sklandų internetinės svetainės veikimą, jų atsisakyti negalima;
+           Funkciniai – naudojami statistinių duomenų rinkimui apie internetinės svetainės vartotojo naudojimąsi svetaine;
+            Analitiniai – naudojami rinkti informaciją apie svetainės naudojimą ir padeda tobulinti svetainės veikimą;
+            Komerciniai – naudojami rinkti informaciją, skirtą reklamos turinio skleidimui.
+            Pasirinkę atitinkamus slapukus ir paspaudę Sutinku, patvirtinate savo sutikimą slapukų naudojimui.
+            Daugiau apie slapukus –  <a href="http://127.0.0.1:8000/cookierules" target="_blank">Slapukų politikoje.</a>
 
           <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
               Aš sutinku

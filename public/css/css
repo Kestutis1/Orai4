@@ -91,10 +91,62 @@ header{
     margin-bottom: 30px;
 }
 
+.underlaine {
+  border-bottom: solid 2px #bbaa93;
+}
+
 img {
     max-width: 50%;
     max-height: 50%;
 }
+
+.botn {
+  position: absolute;
+  bottom: 102px;
+  /* left: 45px; */
+  padding: 5px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  background: green;
+  color: white;
+}
+
+#botnfile {
+  position: absolute;
+  bottom: 102px;
+  left: 180px;
+  padding: 5px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #a592c4;
+  color: #636b6f;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+}
+
+.nerodyti {
+  display: none;
+}
+
+#exampleFormControlFile1 {
+  position:absolute;
+  left: 85px;
+}
+
+.botn:hover {
+  background: red;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+}
+
+
+.sukurtimygtukas {
+  margin-top: 70px;
+}
+
+
 .textcenter {
   text-align: center;
 }
@@ -113,6 +165,19 @@ img {
 .navbar-light .navbar-nav .nav-link:hover {
   color: rgba(#09061c, 0.91);
   text-shadow: 3px 2px #969ea2;
+}
+
+.is-danger {
+  border-color: red;
+}
+
+.klaidos {
+  border: 2px solid red;
+  background-color: red;
+  border-radius: 4px;
+  color: white;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 a:hover {

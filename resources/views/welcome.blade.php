@@ -6,10 +6,11 @@
       <meta name="keywords" content="HTML,CSS,XML,JavaScript">
       <meta name="author" content="Kęstutis Morkevičius">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="icon" href="{!! asset('images/st.png') !!}"/>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
       <link rel="stylesheet" href="../css/cookiealert.css">
-      <link href="../css/css" rel="stylesheet">
+      <link rel="stylesheet" href="../css/css">
       <title>Puslapio pavadinimas</title>
   </head>
     <body>
@@ -60,10 +61,12 @@
 
       <main>
         <div class="container">
-          <div class="row">
-            <div class="col-sm">
-              @yield('content')
-            </div>
+          <div class="row align-items-center justify-content-center full-height">
+            <div class="col-md-3 col-sm-0"></div>
+              <div class="col-md-6 col-sm-12">
+                @yield('content')
+              </div>
+            <div class="col-md-3 col-sm-0"></div>
           </div>
         </div>
       </main>
@@ -105,4 +108,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
           integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="../js/cookiealert.js"></script>
+    <script src="../js/main.js"></script>
 </html>

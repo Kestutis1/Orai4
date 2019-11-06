@@ -18,6 +18,9 @@ Route::get('/create', 'TrakController@create')->middleware('auth');
 Route::get('/kontaktai', function () {
     return view('kontaktai');
     });
+Route::get('/cookierules', function () {
+    return view('cookierules');
+    });
 Route::post('/store', 'TrakController@store')->middleware('auth');
 Route::get('edit/{trak}', 'TrakController@edit')->middleware('auth');
 Route::get('/edit/{trak}', 'TrakController@edit')->middleware('auth');
